@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailsofuser"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shapes"
+        android:ems="10"
+        android:hint="Enter username"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="Get Details"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="details"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Password"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="Mobile Number"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/secans"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:hint="security answer"
+        android:textAlignment="center"/>
+
+</LinearLayout>

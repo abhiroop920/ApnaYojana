@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apnayojana">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".servicecentres" />
+        <activity android:name=".Sanctionforscheme2" />
+        <activity android:name=".statedisabilityverification" />
+        <activity android:name=".onefamilyverification" />
+        <activity android:name=".scheme2status" />
+        <activity android:name=".scheme1status" />
+        <activity android:name=".statusofapp" />
+        <activity android:name=".customerservice" />
+        <activity android:name=".onefamily" />
+        <activity android:name=".Schemepage1" />
+        <activity android:name=".aadharregister1" />
+        <activity android:name=".verification2" />
+        <activity android:name=".verificaton2" />
+        <activity android:name=".statedisability" />
+        <activity android:name=".disablitydetails" />
+        <activity android:name=".disabilitydetails" />
+        <activity android:name=".schemeopen" />
+        <activity android:name=".scheme2choice" />
+        <activity android:name=".ui.scheme2choice" />
+        <activity android:name=".scheme1choice" />
+        <activity android:name=".Listofchild" />
+        <activity android:name=".choice" />
+        <activity android:name=".aadharregister2" />
+        <activity android:name=".Ask" />
+        <activity android:name=".Scanning" />
+        <activity android:name=".schemesmic" />
+        <activity android:name=".myprofile" />
+        <activity android:name=".updatedetailsofuser" />
+        <activity android:name=".detailsofuser" />
+        <activity android:name=".adminloggedin" />
+        <activity android:name=".AdminAcc" />
+        <activity android:name=".Admin" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity android:name=".Forgot" />
+        <activity android:name=".verification" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".aadharregister" />
+        <activity android:name=".Schemepage" />
+        <activity android:name=".Schemes" />
+        <activity android:name=".Signup" />
+        <activity
+            android:name=".Signin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

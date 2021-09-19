@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".statedisabilityverification">
+    <EditText
+        android:id="@+id/username6"
+        android:layout_width="284dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shapes"
+        android:ems="10"
+        android:hint="Enter Aadhaar Number"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="Get Original Details"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="button6"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/name6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Name"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/password6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Father Name"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/age6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Age"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/house6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="House Number"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/city6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="City"
+        android:textAlignment="center"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/state6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="State"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="Verify And Sanction Amount"
+        android:textSize="15dp"
+        tools:targetApi="lollipop"
+        android:onClick="button98"/>
+
+</LinearLayout>

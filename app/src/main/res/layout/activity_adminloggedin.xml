@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminloggedin"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shapes"
+        android:layout_gravity="center_horizontal"
+        android:drawableTop="@drawable/uuser"
+        android:onClick="detailswant"
+        android:padding="5dp"
+
+        android:text="User Details"
+        android:textSize="20dp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+
+        android:drawableTop="@drawable/uppppp"
+        android:onClick="updatewant"
+        android:padding="5dp"
+        android:text="Update User Details"
+        android:textSize="20dp"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>

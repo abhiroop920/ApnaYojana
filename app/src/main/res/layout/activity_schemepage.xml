@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".Schemepage">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="One Family One Job"
+            android:textSize="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="The scheme envisions employment to a member of every family which does not have a government job in the state.\n
+            Under this scheme, all loan debts in the farming and agriculture sector would be revoked.\n
+
+    At present recruitments are being made for Group C and Group D posts in 12 government departments."
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="315dp"
+            android:layout_height="226dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/scheme7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="SCHEME ELIGIBILITY CRITERIA:\n
+    ->Only the permanent resident of Sikkim is eligible for this scheme.\n
+    ->Applicant’s age must be between 18 to 55 years for the scheme eligibility.\n
+    ->This scheme is only meant for the poor people of the State.\n
+    ->Family income of the applicant must be below 3 lakh per annum.\n
+    ->Only family with no member in government job are eligible for this scheme.\n
+    " />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+             android:text="REQIRED DETAILS\n
+        ->NAME\n
+        ->FATHER NAME\n
+        ->AGE\n
+        ->GENDER \n
+        ->HOUSE NUMBER\n
+        ->CITY AND STATE\n
+        ->ANNUAL INCOME\n
+        ->PHONE NUMBER\n
+"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="20dp"
+            android:onClick="schemeregister"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
+

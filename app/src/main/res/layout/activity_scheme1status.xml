@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scheme1status"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextaano1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textAlignment="center"
+        android:layout_marginLeft="95dp"
+        android:inputType="textPersonName"
+        android:hint="Enter Aadhaar Number"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="Get Status"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="scheme1click"/>
+
+    <TextView
+        android:id="@+id/contents"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/contents1"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ask">
+
+    <Button
+        android:id="@+id/enterman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter AADHAR Manually"
+        android:background="@drawable/shapes"
+        android:backgroundTint="#6f6f6f"
+        android:padding="5dp"
+        android:onClick="manually"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="204dp"
+        tools:ignore="OnClick" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="      ........................................(or)...........................................    "
+        android:layout_alignParentLeft="true" />
+
+    <ImageButton
+        android:layout_width="212dp"
+        android:layout_height="218dp"
+        android:onClick="scanner"
+        android:id="@+id/scanqr"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/scanerlogo"
+        tools:ignore="OnClick" />
+</LinearLayout>

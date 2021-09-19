@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:visibility="visible"
+tools:context=".Signin"
+android:background="#99A3A4"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="20dp"
+        android:background="#ffffff"
+        android:layout_marginBottom="26dp" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="70dp"
+            android:text="@string/user_login"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shapes"
+            android:drawableStart="@drawable/baseline_email_black_18dp"
+            android:drawableLeft="@drawable/baseline_email_black_18dp"
+            android:ems="10"
+            android:hint="Enter username"
+            android:inputType="textWebEmailAddress"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapes"
+            android:drawableStart="@drawable/baseline_lock_black_18dp"
+            android:drawableLeft="@drawable/baseline_lock_black_18dp"
+            android:ems="10"
+            android:hint="@string/enter_password1"
+            android:inputType="textWebPassword"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/errormessage"
+            android:textAlignment="center"
+            android:layout_width="263dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="20dp" />
+
+        <CheckBox
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:hint="show password"
+            android:layout_marginTop="20dp"
+            android:id="@+id/checkBox"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:onClick="forgotclick"
+            android:text="@string/forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/darkblue"
+            android:textSize="10sp"
+            tools:ignore="SmallSp"
+            />
+
+        <Button
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableEnd="@drawable/outline_arrow_forward_black_18dp"
+            android:drawableRight="@drawable/outline_arrow_forward_black_18dp"
+            android:onClick="buttonclicked"
+            android:padding="5dp"
+            android:text="@string/sign_in"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableEnd="@drawable/outline_arrow_forward_black_18dp"
+            android:drawableRight="@drawable/outline_arrow_forward_black_18dp"
+            android:padding="5dp"
+            android:text="Admin signin"
+            tools:targetApi="lollipop"
+            android:onClick="adminclicked"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:text="@string/new_user_register_here"
+            android:textAllCaps="false"
+            android:onClick="registerclick"
+            android:textColor="@color/darkblue" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:onClick="adminclick"
+            android:text="Register as admin"
+            android:textAllCaps="false"
+            android:textColor="@color/darkblue" />
+
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

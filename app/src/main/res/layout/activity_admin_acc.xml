@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminAcc"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/user"
+        android:drawableLeft="@drawable/user"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Create Admin Login"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:hint="For voice command speak starting with ..colname.."/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/name0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/editshape"
+        android:drawableStart="@drawable/user"
+        android:drawableLeft="@drawable/user"
+        android:hint="@string/enter_your_full_name"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/editshape"
+        android:drawableLeft="@drawable/email"
+        android:hint="Enter username"
+        android:padding="5dp"
+        android:id="@+id/email0"
+
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawableStart="@drawable/email"
+        />
+
+    <EditText
+        android:id="@+id/passwd10"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:background="@drawable/editshape"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        />
+
+    <EditText
+        android:id="@+id/passwd20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/editshape"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Retype Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/contact0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/editshape"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:hint="Enter mobile number"
+        android:padding="10dp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/adminid0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/editshape"
+        android:drawableLeft="@drawable/arrow"
+        android:hint="Enter Admin Id"
+        android:padding="5dp"
+        android:maxLength="10"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/editshape"
+        android:backgroundTint="#7000BCD4"
+        android:drawableEnd="@drawable/arrow"
+        android:drawableRight="@drawable/arrow"
+        android:onClick="signupadminclicked"
+        android:paddingTop="5dp"
+        android:paddingBottom="0.5dp"
+        android:text="SIGN UP"
+        android:textSize="15dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        android:src="@drawable/ic_mic_black_40dp"
+        android:focusable="true" />
+
+
+</LinearLayout>

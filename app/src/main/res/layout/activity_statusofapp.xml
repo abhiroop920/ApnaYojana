@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".statusofapp"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="One Family One job"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="one_jobapp"/>
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="State Disability"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="state_disabilityapp"/>
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="Educational Scholarship Scheme"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="scheme3app"/>
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:padding="5dp"
+        android:text="PMKPJ"
+        android:textSize="20dp"
+        tools:targetApi="lollipop"
+        android:onClick="scheme4app"/>
+
+    <Button
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shapes"
+        android:backgroundTint="@color/mr_cast_progressbar_progress_and_thumb_dark"
+        android:onClick="scheme5app"
+        android:padding="5dp"
+        android:text="Chief Minister Start Up Scheme"
+        android:textSize="20dp"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>
+
+
+

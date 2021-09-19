@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/shapes"
+            android:padding="5dp"
+            android:backgroundTint="#6f6f6f"
+            android:text="Registration Form"
+            android:textSize="40dp" />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name"
+            android:paddingTop="10dp"
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:id="@+id/name4"
+            />
+
+        <EditText
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Name"
+            android:paddingTop="10dp"
+            android:id="@+id/fname4"
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Gender"
+            android:id="@+id/gen4"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Enter age"
+            android:inputType="number"
+            android:maxLength="2"
+            android:id="@+id/year4"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            />
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:maxLength="10"
+            android:id="@+id/phone4"
+            android:inputType="number"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" House no"
+            android:id="@+id/house4"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/income4"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint=" Annual income"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" City"
+            android:id="@+id/city4"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/state4"
+            android:hint="State "
+            android:paddingTop="10dp" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register now "
+            android:onClick="lastclick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+
+</ScrollView>

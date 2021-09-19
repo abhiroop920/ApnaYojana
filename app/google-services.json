@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1057155461235",
+    "firebase_url": "https://apna-yojana-34145.firebaseio.com",
+    "project_id": "apna-yojana-34145",
+    "storage_bucket": "apna-yojana-34145.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057155461235:android:f1bd74129b1de444b77a06",
+        "android_client_info": {
+          "package_name": "com.example.apnayojana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057155461235-f3gf8crgdicn64qk8qbh9knlbu7c0mut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apnayojana",
+            "certificate_hash": "2a52a54304055a730ef72272161d4a51206d2325"
+          }
+        },
+        {
+          "client_id": "1057155461235-16otlsjgqai5nbq146gdlhfnrdhcntkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAB7CVQbmt6HxEa0Jff4g0W4pXXu3rRQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057155461235-16otlsjgqai5nbq146gdlhfnrdhcntkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

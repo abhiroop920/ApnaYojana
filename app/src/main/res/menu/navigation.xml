@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/signout"
+        app:showAsAction="ifRoom"
+        android:title="SIGN OUT"/>
+    <item
+        android:id="@+id/profile"
+        app:showAsAction="never"
+        android:title="My Profile"/>
+
+    <item
+        android:id="@+id/maps"
+        app:showAsAction="never"
+        android:title="Nearby Services"/>
+    <item
+        android:id="@+id/customer"
+        android:orderInCategory="400"
+        android:title="Customer Service"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/applicationstatus"
+        app:showAsAction="never"
+        android:title="Application Status"
+        />
+
+
+</menu>
